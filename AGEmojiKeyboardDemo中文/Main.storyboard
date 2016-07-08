@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6kk-RK-IqJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6EB-jJ-0DG">
+            <objects>
+                <viewController id="6kk-RK-IqJ" customClass="AGViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Fa-5j-JJE"/>
+                        <viewControllerLayoutGuide type="bottom" id="ipX-Y6-vfz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nB5-oJ-XMh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ddt-mK-PyI">
+                                <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oe-xV-D9d">
+                                <rect key="frame" x="11" y="28" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="mom-AN-3tO"/>
+                                </constraints>
+                                <state key="normal" title="switch"/>
+                                <connections>
+                                    <action selector="switchBtnClick:" destination="6kk-RK-IqJ" eventType="touchUpInside" id="syA-Uy-hnF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeV-B4-g6f">
+                                <rect key="frame" x="544" y="28" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1764705882" green="0.72549019609999998" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="SC9-g7-AnE"/>
+                                    <constraint firstAttribute="height" constant="30" id="ogs-Nr-bCk"/>
+                                </constraints>
+                                <state key="normal" title="resign">
+                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resignBtnClick:" destination="6kk-RK-IqJ" eventType="touchUpInside" id="CPi-0m-KzU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9oe-xV-D9d" firstAttribute="leading" secondItem="nB5-oJ-XMh" secondAttribute="leading" constant="11" id="SAE-uF-CLy"/>
+                            <constraint firstItem="JeV-B4-g6f" firstAttribute="top" secondItem="4Fa-5j-JJE" secondAttribute="bottom" constant="8" id="UBO-2X-vlF"/>
+                            <constraint firstAttribute="trailing" secondItem="Ddt-mK-PyI" secondAttribute="trailing" id="aR4-r1-zhO"/>
+                            <constraint firstItem="Ddt-mK-PyI" firstAttribute="top" secondItem="4Fa-5j-JJE" secondAttribute="bottom" constant="40" id="b3D-sB-XOL"/>
+                            <constraint firstItem="Ddt-mK-PyI" firstAttribute="leading" secondItem="nB5-oJ-XMh" secondAttribute="leading" id="cxI-fO-cyU"/>
+                            <constraint firstAttribute="trailing" secondItem="JeV-B4-g6f" secondAttribute="trailing" constant="10" id="f2q-Nk-zFl"/>
+                            <constraint firstItem="9oe-xV-D9d" firstAttribute="top" secondItem="4Fa-5j-JJE" secondAttribute="bottom" constant="8" id="spt-Kb-u73"/>
+                            <constraint firstItem="ipX-Y6-vfz" firstAttribute="top" secondItem="Ddt-mK-PyI" secondAttribute="bottom" id="wCq-pe-yuy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="Ddt-mK-PyI" id="Gte-SQ-Ws2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZB-7W-50y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="201"/>
+        </scene>
+    </scenes>
+</document>

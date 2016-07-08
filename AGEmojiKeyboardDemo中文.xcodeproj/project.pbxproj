@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4BF0CB1D2FFDE30054F6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0CA1D2FFDE30054F6BF /* main.m */; };
+		6C4BF0CE1D2FFDE30054F6BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0CD1D2FFDE30054F6BF /* AppDelegate.m */; };
+		6C4BF0D61D2FFDE30054F6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF0D51D2FFDE30054F6BF /* Assets.xcassets */; };
+		6C4BF0E41D2FFDE30054F6BF /* AGEmojiKeyboardDemo__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0E31D2FFDE30054F6BF /* AGEmojiKeyboardDemo__Tests.m */; };
+		6C4BF0EF1D2FFDE30054F6BF /* AGEmojiKeyboardDemo__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0EE1D2FFDE30054F6BF /* AGEmojiKeyboardDemo__UITests.m */; };
+		6C4BF1051D2FFE300054F6BF /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF1041D2FFE300054F6BF /* EmojisList.plist */; };
+		6C4BF1081D2FFE8D0054F6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF1061D2FFE8D0054F6BF /* LaunchScreen.storyboard */; };
+		6C4BF1091D2FFE8D0054F6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF1071D2FFE8D0054F6BF /* Main.storyboard */; };
+		6C4BF10B1D2FFEAA0054F6BF /* AGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF10A1D2FFEAA0054F6BF /* AGViewController.m */; };
+		6C4BF1101D2FFFA70054F6BF /* AGEmojiKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF10D1D2FFFA70054F6BF /* AGEmojiKeyBoardView.m */; };
+		6C4BF1111D2FFFA70054F6BF /* AGEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF10F1D2FFFA70054F6BF /* AGEmojiPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C4BF0E01D2FFDE30054F6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4BF0BE1D2FFDE30054F6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4BF0C51D2FFDE30054F6BF;
+			remoteInfo = "AGEmojiKeyboardDemo中文";
+		};
+		6C4BF0EB1D2FFDE30054F6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4BF0BE1D2FFDE30054F6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4BF0C51D2FFDE30054F6BF;
+			remoteInfo = "AGEmojiKeyboardDemo中文";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C4BF0C61D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGEmojiKeyboardDemo中文.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4BF0CA1D2FFDE30054F6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C4BF0CC1D2FFDE30054F6BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C4BF0CD1D2FFDE30054F6BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C4BF0CF1D2FFDE30054F6BF /* AGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGViewController.h; sourceTree = "<group>"; };
+		6C4BF0D51D2FFDE30054F6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4BF0DA1D2FFDE30054F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4BF0DF1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGEmojiKeyboardDemo中文Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4BF0E31D2FFDE30054F6BF /* AGEmojiKeyboardDemo__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEmojiKeyboardDemo__Tests.m; sourceTree = "<group>"; };
+		6C4BF0E51D2FFDE30054F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4BF0EA1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGEmojiKeyboardDemo中文UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4BF0EE1D2FFDE30054F6BF /* AGEmojiKeyboardDemo__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEmojiKeyboardDemo__UITests.m; sourceTree = "<group>"; };
+		6C4BF0F01D2FFDE30054F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4BF1041D2FFE300054F6BF /* EmojisList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojisList.plist; sourceTree = "<group>"; };
+		6C4BF1061D2FFE8D0054F6BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C4BF1071D2FFE8D0054F6BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6C4BF10A1D2FFEAA0054F6BF /* AGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewController.m; sourceTree = "<group>"; };
+		6C4BF10C1D2FFFA70054F6BF /* AGEmojiKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEmojiKeyBoardView.h; sourceTree = "<group>"; };
+		6C4BF10D1D2FFFA70054F6BF /* AGEmojiKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEmojiKeyBoardView.m; sourceTree = "<group>"; };
+		6C4BF10E1D2FFFA70054F6BF /* AGEmojiPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEmojiPageView.h; sourceTree = "<group>"; };
+		6C4BF10F1D2FFFA70054F6BF /* AGEmojiPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEmojiPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4BF0C31D2FFDE30054F6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0DC1D2FFDE30054F6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0E71D2FFDE30054F6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4BF0BD1D2FFDE30054F6BF = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0C81D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文 */,
+				6C4BF0E21D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests */,
+				6C4BF0ED1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests */,
+				6C4BF0C71D2FFDE30054F6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C4BF0C71D2FFDE30054F6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0C61D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文.app */,
+				6C4BF0DF1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests.xctest */,
+				6C4BF0EA1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4BF0C81D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文 */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF1031D2FFE300054F6BF /* Resources */,
+				6C4BF0FC1D2FFE090054F6BF /* AGEmojiKeyboard */,
+				6C4BF0CC1D2FFDE30054F6BF /* AppDelegate.h */,
+				6C4BF0CD1D2FFDE30054F6BF /* AppDelegate.m */,
+				6C4BF0CF1D2FFDE30054F6BF /* AGViewController.h */,
+				6C4BF10A1D2FFEAA0054F6BF /* AGViewController.m */,
+				6C4BF1061D2FFE8D0054F6BF /* LaunchScreen.storyboard */,
+				6C4BF1071D2FFE8D0054F6BF /* Main.storyboard */,
+				6C4BF0D51D2FFDE30054F6BF /* Assets.xcassets */,
+				6C4BF0DA1D2FFDE30054F6BF /* Info.plist */,
+				6C4BF0C91D2FFDE30054F6BF /* Supporting Files */,
+			);
+			path = "AGEmojiKeyboardDemo中文";
+			sourceTree = "<group>";
+		};
+		6C4BF0C91D2FFDE30054F6BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0CA1D2FFDE30054F6BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C4BF0E21D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0E31D2FFDE30054F6BF /* AGEmojiKeyboardDemo__Tests.m */,
+				6C4BF0E51D2FFDE30054F6BF /* Info.plist */,
+			);
+			path = "AGEmojiKeyboardDemo中文Tests";
+			sourceTree = "<group>";
+		};
+		6C4BF0ED1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0EE1D2FFDE30054F6BF /* AGEmojiKeyboardDemo__UITests.m */,
+				6C4BF0F01D2FFDE30054F6BF /* Info.plist */,
+			);
+			path = "AGEmojiKeyboardDemo中文UITests";
+			sourceTree = "<group>";
+		};
+		6C4BF0FC1D2FFE090054F6BF /* AGEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF10C1D2FFFA70054F6BF /* AGEmojiKeyBoardView.h */,
+				6C4BF10D1D2FFFA70054F6BF /* AGEmojiKeyBoardView.m */,
+				6C4BF10E1D2FFFA70054F6BF /* AGEmojiPageView.h */,
+				6C4BF10F1D2FFFA70054F6BF /* AGEmojiPageView.m */,
+			);
+			path = AGEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		6C4BF1031D2FFE300054F6BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF1041D2FFE300054F6BF /* EmojisList.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C4BF0C51D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4BF0F31D2FFDE30054F6BF /* Build configuration list for PBXNativeTarget "AGEmojiKeyboardDemo中文" */;
+			buildPhases = (
+				6C4BF0C21D2FFDE30054F6BF /* Sources */,
+				6C4BF0C31D2FFDE30054F6BF /* Frameworks */,
+				6C4BF0C41D2FFDE30054F6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGEmojiKeyboardDemo中文";
+			productName = "AGEmojiKeyboardDemo中文";
+			productReference = 6C4BF0C61D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C4BF0DE1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4BF0F61D2FFDE30054F6BF /* Build configuration list for PBXNativeTarget "AGEmojiKeyboardDemo中文Tests" */;
+			buildPhases = (
+				6C4BF0DB1D2FFDE30054F6BF /* Sources */,
+				6C4BF0DC1D2FFDE30054F6BF /* Frameworks */,
+				6C4BF0DD1D2FFDE30054F6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4BF0E11D2FFDE30054F6BF /* PBXTargetDependency */,
+			);
+			name = "AGEmojiKeyboardDemo中文Tests";
+			productName = "AGEmojiKeyboardDemo中文Tests";
+			productReference = 6C4BF0DF1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C4BF0E91D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4BF0F91D2FFDE30054F6BF /* Build configuration list for PBXNativeTarget "AGEmojiKeyboardDemo中文UITests" */;
+			buildPhases = (
+				6C4BF0E61D2FFDE30054F6BF /* Sources */,
+				6C4BF0E71D2FFDE30054F6BF /* Frameworks */,
+				6C4BF0E81D2FFDE30054F6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4BF0EC1D2FFDE30054F6BF /* PBXTargetDependency */,
+			);
+			name = "AGEmojiKeyboardDemo中文UITests";
+			productName = "AGEmojiKeyboardDemo中文UITests";
+			productReference = 6C4BF0EA1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C4BF0BE1D2FFDE30054F6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CoderXu;
+				TargetAttributes = {
+					6C4BF0C51D2FFDE30054F6BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T59W99K34W;
+					};
+					6C4BF0DE1D2FFDE30054F6BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T59W99K34W;
+						TestTargetID = 6C4BF0C51D2FFDE30054F6BF;
+					};
+					6C4BF0E91D2FFDE30054F6BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T59W99K34W;
+						TestTargetID = 6C4BF0C51D2FFDE30054F6BF;
+					};
+				};
+			};
+			buildConfigurationList = 6C4BF0C11D2FFDE30054F6BF /* Build configuration list for PBXProject "AGEmojiKeyboardDemo中文" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C4BF0BD1D2FFDE30054F6BF;
+			productRefGroup = 6C4BF0C71D2FFDE30054F6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C4BF0C51D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文 */,
+				6C4BF0DE1D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文Tests */,
+				6C4BF0E91D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C4BF0C41D2FFDE30054F6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF1081D2FFE8D0054F6BF /* LaunchScreen.storyboard in Resources */,
+				6C4BF1051D2FFE300054F6BF /* EmojisList.plist in Resources */,
+				6C4BF0D61D2FFDE30054F6BF /* Assets.xcassets in Resources */,
+				6C4BF1091D2FFE8D0054F6BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0DD1D2FFDE30054F6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0E81D2FFDE30054F6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C4BF0C21D2FFDE30054F6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF1111D2FFFA70054F6BF /* AGEmojiPageView.m in Sources */,
+				6C4BF1101D2FFFA70054F6BF /* AGEmojiKeyBoardView.m in Sources */,
+				6C4BF0CE1D2FFDE30054F6BF /* AppDelegate.m in Sources */,
+				6C4BF0CB1D2FFDE30054F6BF /* main.m in Sources */,
+				6C4BF10B1D2FFEAA0054F6BF /* AGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0DB1D2FFDE30054F6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF0E41D2FFDE30054F6BF /* AGEmojiKeyboardDemo__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0E61D2FFDE30054F6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF0EF1D2FFDE30054F6BF /* AGEmojiKeyboardDemo__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4BF0E11D2FFDE30054F6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4BF0C51D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文 */;
+			targetProxy = 6C4BF0E01D2FFDE30054F6BF /* PBXContainerItemProxy */;
+		};
+		6C4BF0EC1D2FFDE30054F6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4BF0C51D2FFDE30054F6BF /* AGEmojiKeyboardDemo中文 */;
+			targetProxy = 6C4BF0EB1D2FFDE30054F6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C4BF0F11D2FFDE30054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C4BF0F21D2FFDE30054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C4BF0F41D2FFDE30054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AGEmojiKeyboardDemo中文/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bai.AGEmojiKeyboardDemo--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C4BF0F51D2FFDE30054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AGEmojiKeyboardDemo中文/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bai.AGEmojiKeyboardDemo--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C4BF0F71D2FFDE30054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AGEmojiKeyboardDemo中文Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bai.AGEmojiKeyboardDemo--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGEmojiKeyboardDemo中文.app/AGEmojiKeyboardDemo中文";
+			};
+			name = Debug;
+		};
+		6C4BF0F81D2FFDE30054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AGEmojiKeyboardDemo中文Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bai.AGEmojiKeyboardDemo--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGEmojiKeyboardDemo中文.app/AGEmojiKeyboardDemo中文";
+			};
+			name = Release;
+		};
+		6C4BF0FA1D2FFDE30054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AGEmojiKeyboardDemo中文UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bai.AGEmojiKeyboardDemo--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AGEmojiKeyboardDemo中文";
+			};
+			name = Debug;
+		};
+		6C4BF0FB1D2FFDE30054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AGEmojiKeyboardDemo中文UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bai.AGEmojiKeyboardDemo--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AGEmojiKeyboardDemo中文";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C4BF0C11D2FFDE30054F6BF /* Build configuration list for PBXProject "AGEmojiKeyboardDemo中文" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF0F11D2FFDE30054F6BF /* Debug */,
+				6C4BF0F21D2FFDE30054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4BF0F31D2FFDE30054F6BF /* Build configuration list for PBXNativeTarget "AGEmojiKeyboardDemo中文" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF0F41D2FFDE30054F6BF /* Debug */,
+				6C4BF0F51D2FFDE30054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C4BF0F61D2FFDE30054F6BF /* Build configuration list for PBXNativeTarget "AGEmojiKeyboardDemo中文Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF0F71D2FFDE30054F6BF /* Debug */,
+				6C4BF0F81D2FFDE30054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C4BF0F91D2FFDE30054F6BF /* Build configuration list for PBXNativeTarget "AGEmojiKeyboardDemo中文UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF0FA1D2FFDE30054F6BF /* Debug */,
+				6C4BF0FB1D2FFDE30054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C4BF0BE1D2FFDE30054F6BF /* Project object */;
+}
